@@ -1,0 +1,35 @@
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+aiosqlite==0.19.0
+alembic==1.13.1
+# psycopg2-binary==2.9.9  # Commented out - use PostgreSQL in production
+
+# Pydantic
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP and parsing
+httpx==0.26.0
+feedparser==6.0.10
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# AI/ML - Simplified for local dev
+openai==1.10.0
+# scikit-learn==1.4.0  # Requires C++ compiler
+# numpy==1.26.3
+
+# Scheduling
+apscheduler==3.10.4
+
+# Email
+aiosmtplib==3.0.1
+
+# Utils
+python-dotenv==1.0.0
+python-dateutil==2.8.2
